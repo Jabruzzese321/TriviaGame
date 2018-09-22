@@ -1,0 +1,43 @@
+body{
+	background: url("../images/friends.jpeg") no-repeat center center fixed; 
+	-webkit-background-size: cover; 
+	-moz-background-size: cover; 
+	-o-background-size: cover; 
+	background-size: cover;
+}
+
+button {
+	width: 80%;
+	height: 40px;
+	margin: 0 10%;
+	float: left;
+}
+
+button.answerchoice {
+	display: none;
+}
+
+button:hover {
+	background-color: grey;
+	color: white;
+}
+
+.answers div {
+	margin: 0 auto;
+}
+
+
+h1, h2, h3, .question {
+	text-align: center;
+}
+
+.timer {
+    margin-top: 500px;
+    color: white;
+    font-size: 50px;
+}
+
+.question {
+    color: white;
+    font-size: 50px;
+}
